@@ -1,8 +1,10 @@
 import re
+while True:
+	string=input("\nEnter the string.Type'end'when done\n")
+	if (string)=="end":
+		break
+	else: 
+		split = re.findall('[A-Z][a-z]*[0-9]*[!@#$&()\\-' ':.+,/\"]*',string)
+		result=' '.join(split)
+		print(result)
 
-n= int(input("\nenter the number of inputs\n"))
-for i in range(0,n):
-	string=input("\nEnter the string\n")
-	split = re.findall('[A-Z][a-z]*[0-9]*[!@#$&()\\-' ':.+,/\"]*',string)
-	result=' '.join(split)
-	print(result)
