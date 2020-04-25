@@ -12,6 +12,6 @@ while True:
 				name.append(char)
 		temp=''.join(name)
 		final=re.findall('[A-Z][a-z]*',temp)
-		name=string.join(final)
-		print(name)
+		result=string.join(final)
+		print(result)
 
