@@ -9,4 +9,5 @@ i=subject.index(sub)
 lst=[(k,v[i])for k,v in mydict.items()]
 #print(lst)
 tup=sorted(lst, key = lambda x: x[1],reverse=True) 
-print(tup)
+for j in tup:
+	print(j)
