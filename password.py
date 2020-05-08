@@ -4,7 +4,7 @@ inp=input("Enter the password\n")
 if (len(inp)<8):
 	print("invalid ")
 
-if (len(inp)>16):
+elif (len(inp)>16):
 	print("invalid")
 
 elif not any(char.isdigit() for char in inp):
