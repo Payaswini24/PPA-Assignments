@@ -1,6 +1,6 @@
-
-
-
+"""Takes user input for up,down,left and right.
+Computes the final x axis and y axis value by (up-down) and (left-right).
+Finds the hypothesis value which is the distance travelled """
 
 import math
 
