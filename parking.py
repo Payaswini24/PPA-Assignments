@@ -1,3 +1,6 @@
+"""asks the user to choose from the given list of choices. The available slots are alloted to 2 and 4 wheeler. When a vehicle exits,
+the allocated space is deallocated"""
+
 class Parking:
 	def __init__(self):
 		self.count1= 0
