@@ -1,3 +1,5 @@
+"""Appends the to do work to a list and when the task is completed, the work done is removed from the to do list and appended to work done list"""
+
 class Todo: 
 	def __init__(self):
 
