@@ -1,9 +1,9 @@
-n=int(input("enter the numberator "))
-d=int(input("enter the denominator "))
+numerator=int(input("enter the numerator "))
+denominator=int(input("enter the denominator "))
 
 
 try:
-	result= (n/d)
+	result= (numerator/denominator)
 	print(result)
 except ZeroDivisionError as error:
 	print("Division by zero!")
