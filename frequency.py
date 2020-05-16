@@ -1,7 +1,7 @@
 lst=[]
 
 inp=input("enter the string\n")
-#inp=inp.capitalize()
+
 inp=list(inp.split(" "))
 inp.sort()
 
